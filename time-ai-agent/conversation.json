@@ -1,0 +1,51 @@
+[
+    {
+        "role": "user",
+        "content": "what time is it"
+    },
+    {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+            {
+                "function": {
+                    "name": "get_time",
+                    "arguments": {}
+                }
+            }
+        ]
+    },
+    {
+        "role": "tool",
+        "content": "18:59",
+        "tool_name": "get_time"
+    },
+    {
+        "role": "assistant",
+        "content": "It is currently 18:59."
+    },
+    {
+        "role": "user",
+        "content": "what is ai engineer in 2 lines"
+    },
+    {
+        "role": "assistant",
+        "content": "An AI engineer designs and develops artificial intelligence systems, working on algorithms, machine learning models, and integrating them into software applications."
+    },
+    {
+        "role": "user",
+        "content": "how to study deep in 2 lines"
+    },
+    {
+        "role": "assistant",
+        "content": "To deeply study something, focus intensively on the subject matter, engage with it regularly through reading, practice, and discussion, and seek out expert guidance when available."
+    },
+    {
+        "role": "user",
+        "content": "i didnt get explain more"
+    },
+    {
+        "role": "assistant",
+        "content": "To deeply study a topic, you should dedicate focused time to learning, actively engaging with the material through reading, practicing what you learn, and participating in discussions or projects related to it. Additionally, seeking advice from experts can be very beneficial."
+    }
+]
