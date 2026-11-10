@@ -13,7 +13,7 @@ from datetime import datetime
 import ollama
 
 MODEL = "qwen2.5:3b"
-FILE_NAME = "conversation.json"
+FILE_NAME = "./examples/01_conversation.json"
 
 
 def save_conversation(messages):

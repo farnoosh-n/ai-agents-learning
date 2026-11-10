@@ -1,0 +1,29 @@
+[
+    {
+        "role": "user",
+        "content": "i am 17. can i drive? and what time is it"
+    },
+    {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+            {
+                "function": {
+                    "name": "check_age",
+                    "arguments": {
+                        "age": 17
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "role": "tool",
+        "content": "not adult",
+        "tool_name": "check_age"
+    },
+    {
+        "role": "assistant",
+        "content": "Based on the age you provided, you are not considered an adult. In many places, you need to be at least 18 years old to drive.\n\n"
+    }
+]
